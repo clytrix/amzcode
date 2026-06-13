@@ -15,6 +15,8 @@ function createSupabaseAdminClient() {
     );
   }
 
+  console.log("Supabase Client Init - URL:", SUPABASE_URL, "Key Length:", SUPABASE_SERVICE_ROLE_KEY?.length, "Key Prefix:", SUPABASE_SERVICE_ROLE_KEY?.substring(0, 15));
+
   return createClient<Database>(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
     auth: {
       storage: undefined,
