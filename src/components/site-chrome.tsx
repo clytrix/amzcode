@@ -54,6 +54,22 @@ export function PublicHeader() {
             </>
           )}
         </div>
+
+        {/* Mobile Navigation Actions */}
+        <div className="flex items-center gap-2 md:hidden">
+          <Link to="/jobs" className="rounded-md p-2 hover:bg-white/10 transition" aria-label="Jobs">
+            <Briefcase className="h-5 w-5" />
+          </Link>
+          {user ? (
+            <Link to="/dashboard" className="rounded-md p-2 hover:bg-white/10 transition" aria-label="Dashboard">
+              <UserIcon className="h-5 w-5" />
+            </Link>
+          ) : (
+            <Link to="/login" className="rounded-md bg-primary px-3 py-1.5 text-xs font-bold text-primary-foreground hover:opacity-90 transition">
+              Sign In
+            </Link>
+          )}
+        </div>
       </div>
 
       <div className="bg-nav-secondary border-t border-border/5">
