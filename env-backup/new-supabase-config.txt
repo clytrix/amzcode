@@ -1,0 +1,7 @@
+New Supabase Configuration
+===========================
+URL: https://egamyzmrubgptylgpzgr.supabase.co
+Publishable Key: sb_publishable_tKDGSg2bpmBuGZE3v50dYQ_6Jr4Fsob
+Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVnYW15em1ydWJncHR5bGdwemdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgyMjY3ODAsImV4cCI6MjA5MzgwMjc4MH0.2KqHvdUaH53FwqTD4VzVAeM0RHtdwN8mG0MwSy4CIaI
+Service Role Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVnYW15em1ydWJncHR5bGdwemdyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3ODIyNjc4MCwiZXhwIjoyMDkzODAyNzgwfQ.sdQcoPAMYEtHRyrgPbGemfEz1a-C3Obi156vLnzSLJQ
+Database Password: FfmOxB9tSkZLp0BD
