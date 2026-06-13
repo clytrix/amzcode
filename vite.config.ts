@@ -9,7 +9,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 export default defineConfig({
   tanstackStart: {
     importProtection: {
-      exclude: ["**/src/server/**"],
+      client: {
+        excludeFiles: ["**/src/server/**"],
+      },
     },
   },
 });
