@@ -1,3 +1,0 @@
-{
-  "buildCommand": "npx vite build --config vite.config.node.ts"
-}
